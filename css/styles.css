@@ -53,23 +53,19 @@ img {
     display: block;
 }
 
-/*Навігація. Лого-посилання*/
-
-
 .container {
     display: flex;
     max-width: 1440px;
     flex-wrap: wrap;
+    padding-left: 156px;
+    padding-right: 156px;
 }
 
-
-.divaddress {
-    display: flex;
-}
+/*Навігація. Лого-посилання*/
 
 .addresstabl {
     display: flex;
-    margin: 24px 156px 24px 0px;
+    margin: 24px 0px 24px 0px;
     gap: 40px;
 }
 
@@ -173,7 +169,7 @@ img {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    margin: 188px 472px 48px 472px;
+    margin: 188px 316px 48px 316px;
     max-width: 496px;
 }
 
@@ -187,7 +183,7 @@ img {
     letter-spacing: 0.04em;
     font-weight: 500;
     
-    margin: 48px 635px 188px 636px;
+    margin: 48px 480px 188px 480px;
     padding: 16px 32px;
     display: block;
     min-width: 169px;
@@ -215,6 +211,10 @@ img {
     line-height: 1.5;
     letter-spacing: 0.04em;
     font-weight: 500;
+}
+
+.sectionone .container {
+    flex-direction: column;
 }
 
 /*Секція 2. Статті*/
@@ -343,7 +343,7 @@ img {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 72px;
-
+    
 }
 
 .sectionfourul {
@@ -405,8 +405,13 @@ img {
 
 .logofooter .studio {
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footercontainerdiv {
     padding: 100px 1020px 100px 156px;
+}
+
+.footer .container {
+    flex-direction: column;
 }
