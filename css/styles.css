@@ -49,6 +49,10 @@ div {
     margin: 0px;
 }
 
+img {
+    display: block;
+}
+
 /*Навігація. Лого-посилання*/
 
 
@@ -58,9 +62,6 @@ div {
     flex-wrap: wrap;
 }
 
-.divlogoheader {
-    display: flex;
-}
 
 .divaddress {
     display: flex;
@@ -79,7 +80,9 @@ div {
 
 
 .navtabl {
+    display: flex;
     gap: 40px;
+
 }
 
 
@@ -93,7 +96,9 @@ div {
     line-height: 1.17;
     letter-spacing: 0.03em;
 
-    margin: 25.5px 76px 25.5px 156px;
+    margin-right: 76px;
+
+    display: flex;
 }
 
 .spon {
@@ -106,7 +111,7 @@ div {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    padding: 24px 0;
 
 }
 
@@ -138,6 +143,27 @@ div {
 .address {
     font-size: 16px;
     font-style: normal;
+}
+
+.headerblock {
+    border-bottom: 1px solid #e7e9fc;
+}
+
+.headerblock .container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px 0 15px;
+}
+
+.headerblockcontainernav {
+    display: flex;
+    align-items: center;
+}
+
+.addresstabl {
+    display: flex;
+    gap: 40px;
+    
 }
 
 /*Секція 1*/
@@ -312,8 +338,15 @@ div {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
+
+    margin-bottom: 16px;
+    display: inline-block;
 }
 
 .logofooter .studio {
     color: #f4f4fd;
+}
+
+.footercontainerdiv {
+    padding: 100px 1020px 100px 156px;
 }
