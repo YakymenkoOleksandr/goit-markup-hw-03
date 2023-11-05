@@ -76,15 +76,8 @@ img {
 .navtabl {
     display: flex;
     margin: 24px 332px 24px 0px;
-}
-
-
-.navtabl {
-    display: flex;
     gap: 40px;
-
 }
-
 
 .logoheader {
     font-family: 'Raleway', sans-serif;
@@ -163,19 +156,14 @@ img {
 .addresstabl {
     display: flex;
     gap: 40px;
-    
+
 }
 
 /*Секція 1*/
 
 .sectionone {
     background-color: #2e2f42;
-}
-
-.sectionone > div {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 188px 0;
 }
 
  .uppermain {
@@ -186,6 +174,7 @@ img {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin: 188px 472px 48px 472px;
+    max-width: 496px;
 }
 
 
@@ -200,6 +189,12 @@ img {
     
     margin: 48px 635px 188px 636px;
     padding: 16px 32px;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 .orderservice:hover {
@@ -224,22 +219,33 @@ img {
 
 /*Секція 2. Статті*/
 
-.sectiontwodiv {
-    display: flex;
-    flex-wrap: nowrap;
-    gap: 24px;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 120px 156px 120px 156px;
+.sectiontwo {
+    padding: 120px 0;
+
 }
 
-.sectiontwodiv > div {
+.visuallyhidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;    
+}
+
+.sectiontwoul {
     display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    gap: 24px;
+}
+
+.sectiontwoli {
+    width: calc((100% - 72px) / 4);
+
 }
 
 .content {
@@ -252,6 +258,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 .sectiontwop {
@@ -265,16 +272,17 @@ img {
 
 .frame {
     background-color: #ffffff;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.sectionthree {
+    padding: 120px 0;
 }
 
 .ourteam {
-    background-color: #f4f4fd;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
     gap: 24px;
-    margin: 0px 156px 120px 156px;
 }
 
 .headerourteam {
@@ -298,24 +306,74 @@ img {
     text-align: center;
 }
 
+.ourteamtext {
+    padding: 32px 0;
+}
+
+.sectionthreeh {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.sectionthreep {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+
+}
+
 
 /* Секція №4 */
 
+.sectionfour {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 
 .ourportfolio {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 72px;
+
 }
 
-.sectionfour {
+.sectionfourul {
     display: flex;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
 }
+
+.sectionfourli {
+    width: calc((100% - 48px) / 3);
+}
+
+.sectionfourdiv {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
+.sectionfourh {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
 
 /* Footer */
 
