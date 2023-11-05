@@ -391,6 +391,7 @@ img {
 }
 
 .logofooter {
+    display: inline-block;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     text-transform: uppercase;
@@ -401,12 +402,10 @@ img {
     letter-spacing: 0.03em;
 
     margin-bottom: 16px;
-    display: inline-block;
 }
 
 .logofooter .studio {
     color: #f4f4fd;
-    display: inline-block;
 }
 
 .footercontainerdiv {
@@ -415,4 +414,8 @@ img {
 
 .footer .container {
     flex-direction: column;
+}
+
+.linka {
+    display: inline-block;
 }
