@@ -401,6 +401,7 @@ img {
     letter-spacing: 0.03em;
     margin-bottom: 16px;
     max-width: fit-content;
+    display: inline-block;
 }
 
 .logofooter .studio {
