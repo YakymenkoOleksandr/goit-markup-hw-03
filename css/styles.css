@@ -404,6 +404,10 @@ img {
     display: inline-block;
 }
 
+.inlineblock {
+    display: inline-block;
+}
+
 .logofooter .studio {
     color: #f4f4fd;
 }
