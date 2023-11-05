@@ -293,9 +293,9 @@ img {
     text-transform: capitalize;
     color: #2e2f42;
     background-color: #ffffff;
-    font-weight: 500;
+    font-weight: 700;
 
-    margin: 120px 639px 72px 639px;
+    margin: 120px auto 72px auto;
 }
 
 .ourteam h3 {
@@ -342,6 +342,7 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin: auto;
     margin-bottom: 72px;
     
 }
