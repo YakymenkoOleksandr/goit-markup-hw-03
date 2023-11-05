@@ -420,3 +420,6 @@ img {
     flex-direction: column;
 }
 
+.footer .container a {
+    display: inline-block;
+}
